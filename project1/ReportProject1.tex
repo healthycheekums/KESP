@@ -36,7 +36,7 @@ and a closed form solution with the Dirichlet boundary conditions:
 	\end{equation}
 
 	\subsection{Solving a Tridiagonal Matrix}
-This is general tridiagonal matrix:
+This is a general tridiagonal matrix, in an equation similar to (3):
 	\begin{center}
 		$\begin{bmatrix}
 			d_{1}& e_{1} & 0 & 0 \\
@@ -59,19 +59,8 @@ This is general tridiagonal matrix:
 		\end{bmatrix}$
 		\end{center}
 
-We can reduce this generalized matrix into an upper trianular matrix from forward and backward substitution. 
+where $d_{i}$ are the diagonal matrix elements and $e_{i}$ are the off diagonal matrix elements. We can reduce this generalized matrix into an upper triangular matrix by first using forward substitution to yield:
 	
-	\begin{equation}
-	\tilde{f}_{i}=f_{i}-\frac{\tilde{f}_{i-1}e_{i-1}}{\tilde{d}_{i-1}} ; \tilde{d}_{i}=d_{i}-e^{2}_{i-1}/\tilde{d}_{i-1}
-	\label{forward}
-	\end{equation}
-	
-	\begin{equation}
-	u_{i} = (\tilde{f}_{i}-e_{i}u{i+1})/\tilde{d}_{i}
-	\label{backward}
-	\end{equation}
-where $d_{i}$ are the diagonal matrix elements and $e_{i}$ are the off diagonal matrix elements.
-
 \begin{center}
 		$\begin{bmatrix}
 			d_{1}& e_{1} & 0 & 0 \\
@@ -93,8 +82,20 @@ where $d_{i}$ are the diagonal matrix elements and $e_{i}$ are the off diagonal 
 			v_{n}
 		\end{bmatrix}$
 		\end{center}
-	
 
+The off-diagonal elements $e_{i}$ are unchanged, but the other elements are given by:
+
+	\begin{equation}
+	\tilde{f}_{i}=f_{i}-\frac{\tilde{f}_{i-1}e_{i-1}}{\tilde{d}_{i-1}} ; \tilde{d}_{i}=d_{i}-e^{2}_{i-1}/\tilde{d}_{i-1}
+	\label{forward}
+	\end{equation}
+	
+After back substitution, the elements of solution vector u can are given by:
+
+	\begin{equation}
+	u_{i} = (\tilde{f}_{i}-e_{i}u_{i+1})/\tilde{d}_{i}
+	\label{backward}
+	\end{equation}
 
 We were able to create another program that performed matrix mathematics to solve for the set of linear equations.  Taking a tridiagonal matrix, we can solve it using LU decomposition.
 	
@@ -120,11 +121,23 @@ The matrix that represents the set of linear equations referred to in equation (
 		\end{center}
 This form can be generalized to any size nxn matrix, where the diagonal elements $d_{i}$ each equal 2 and the off diagonal elements $e_{i}$ each equal -1.
 
-Equations (6) and (7), representative of forward and backwards substitution, can be generalized for this specific matrix, yielding:
+Equation (6) can be generalized for this specific matrix, yielding: 
 
 %	\begin{equation}
-%	 \tilde{d}_{i}=\frac{{i+1}{i}}
+%	 \tilde{d}_{i}=\frac{i+1}{i}
+%	 \end{equation}
+
+	\begin{equation}
+	\tilde{d}_{i}=\frac{i+1}{i};  
+	\tilde{f}_{i}=f_{i}+{\tilde{d}_{i-1}}\tilde{f}_{i-1}
+	\end{equation}
+
+%	\begin{equation}
+%	\tilde{f}_{i}=f_{i}+{\tilde{d}_{i-1}\tilde{f}_{i-1}
+%	\label{forward}
 %	\end{equation}
+
+Equation (7) can be 
 
 \section{Methods}
 	\subsection{Relative error}
@@ -147,7 +160,7 @@ $u_{i}$ is the analytic solution, and $v_{i}$ is the numerical solution.
 \begin{figure}[!ht]
 	\centering
 	%\includegraphics[width=0.5\textwidth]{/Users/bruepark/Documents/GitHub/Physics480/project1/Report/out1.pdf}
-	\includegraphics[width=0.5\textwidth]{/home/healthycheekums/Physics480/project1/Report/out1.pdf}
+	%\includegraphics[width=0.5\textwidth]{/home/healthycheekums/Physics480/project1/Report/out1.pdf}
 	\label{uvx}
 	\caption{ n = 1. The x axis is the x values in the range [0,1] and the y axis is the resulting u values.}
 \end{figure}
@@ -155,7 +168,7 @@ $u_{i}$ is the analytic solution, and $v_{i}$ is the numerical solution.
 \begin{figure}[!ht]
 	\centering
 	%\includegraphics[width=0.5\textwidth]{/Users/bruepark/Documents/GitHub/Physics480/project1/Report/out2.pdf}
-	\includegraphics[width=0.5\textwidth]{/home/healthycheekums/Physics480/project1/Report/out2.pdf}
+	%\includegraphics[width=0.5\textwidth]{/home/healthycheekums/Physics480/project1/Report/out2.pdf}
 
 	\label{uvx}
 	\caption{n = 2. The x axis is the x values in the range [0,1] and the y axis is the resulting u values.}
@@ -164,7 +177,7 @@ $u_{i}$ is the analytic solution, and $v_{i}$ is the numerical solution.
 \begin{figure}[!ht]
 	\centering
 	%\includegraphics[width=0.5\textwidth]{/Users/bruepark/Documents/GitHub/Physics480/project1/Report/out3.pdf}
-	\includegraphics[width=0.5\textwidth]{/home/healthycheekums/Physics480/project1/Report/out3.pdf}
+	%\includegraphics[width=0.5\textwidth]{/home/healthycheekums/Physics480/project1/Report/out3.pdf}
 
 	\label{uvx}
 	\caption{n =3.  The x axis is the x values in the range [0,1] and the y axis is the resulting u values.}
@@ -213,7 +226,7 @@ Further investigation shows that the overabundance of data points does give us t
 	We found that specialized time was vastly more efficient over the LU time, as expected. We were unable to compute a LU matrix at $N=10^{4}$, initializing the program with this input would immediately sieze the program up. For the specialized solver, $N=10^{7}$ was the most reasonable limit, guessing at the size of the output file for $N=10^{7}$, ~400MB, we can assume that $N=10^{8}$ would not only take several hundred seconds to compute, but would result in a file size well over a GB, if not several. 	
 
 \section{Conclusions}
-
+We found that yes, LU is bad
 \begin{thebibliography}{99}
 \bibitem{miller2006} G.~A.~Miller, A.~K.~Opper, and E.~J.~Stephenson, Annu.~Rev.~Nucl.~Sci.~{\bf 56}, 253 (2006).
 \end{thebibliography}
