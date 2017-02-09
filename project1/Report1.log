@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.1.29)  8 FEB 2017 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.1.29)  8 FEB 2017 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,48 +343,84 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
-Class revtex4-1 Info: Patching array package. on input line 8.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 8.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 8.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 8.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 8.
- (./Report1.aux
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 
-LaTeX Warning: Label `uvx' multiply defined.
-
-
-LaTeX Warning: Label `uvx' multiply defined.
-
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks24
+\float@box=\box43
+\@float@everytoks=\toks25
+\@floatcapt=\box44
 )
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks26
+\c@algorithm=\count119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count120
+\c@ALG@rem=\count121
+\c@ALG@nested=\count122
+\ALG@tlm=\skip52
+\ALG@thistlm=\skip53
+\c@ALG@Lnr=\count123
+\c@ALG@blocknr=\count124
+\c@ALG@storecount=\count125
+\c@ALG@tmpcounter=\count126
+\ALG@tmplength=\skip54
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+Class revtex4-1 Info: Patching array package. on input line 17.
+
+
+Class revtex4-1 Warning: Repair the float package.
+
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 17.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 17.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 17.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 17.
+(./Report1.aux)
 \openout1 = `Report1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
+\scratchcounter=\count127
 \scratchdimen=\dimen119
-\scratchbox=\box43
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count121
+\scratchbox=\box45
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen120
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -400,8 +436,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 8.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring ON on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -409,114 +445,193 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./Report1.out) (./Report1.out)
 \@outlinefile=\write4
 \openout4 = `Report1.out'.
 
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 8.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 17.
 \openout3 = `Report1Notes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 2302) in paragraph at lines 27--29
+Underfull \hbox (badness 2302) in paragraph at lines 36--38
 \OT1/cmr/m/n/10 Consequently, we can solve these lin-ear equa-tions
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-</home/healthycheekums/Physics480/project1/Report/out1.pdf, id=97, 462.52798pt 
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 173.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \c@float@type 
+l.185 \end{algorithm}
+                     
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.185 \end{algorithm}
+                     
+? 
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.185 \end{algorithm}
+                     
+? 
+! You can't use `\vadjust' in vertical mode.
+<argument> \vadjust 
+                    {\do@output@cclv {\@add@float }}\@Esphack 
+l.185 \end{algorithm}
+                     
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \c@float@type 
+l.198 \end{algorithm}
+                     
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.198 \end{algorithm}
+                     
+? 
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.198 \end{algorithm}
+                     
+? 
+! You can't use `\vadjust' in vertical mode.
+<argument> \vadjust 
+                    {\do@output@cclv {\@add@float }}\@Esphack 
+l.198 \end{algorithm}
+                     
+? 
+
+</home/healthycheekums/Physics480/project1/Report/out1.pdf, id=37, 462.52798pt 
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out1.pdf Graphic file (t
 ype pdf)
  <use /home/healthycheekums/Physics480/project1/Report/out1.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out1.
-pdf used on input line 153.
+pdf used on input line 222.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 153--155
+Overfull \hbox (9.0pt too wide) in paragraph at lines 222--224
  [][] 
  []
 
 
-</home/healthycheekums/Physics480/project1/Report/out2.pdf, id=98, 462.52798pt 
+</home/healthycheekums/Physics480/project1/Report/out2.pdf, id=38, 462.52798pt 
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out2.pdf Graphic file (t
 ype pdf)
  <use /home/healthycheekums/Physics480/project1/Report/out2.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out2.
-pdf used on input line 161.
+pdf used on input line 230.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 161--162
+Overfull \hbox (9.0pt too wide) in paragraph at lines 230--231
  [][] 
  []
 
 
-</home/healthycheekums/Physics480/project1/Report/out3.pdf, id=99, 462.52798pt 
+</home/healthycheekums/Physics480/project1/Report/out3.pdf, id=39, 462.52798pt 
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out3.pdf Graphic file (t
 ype pdf)
  <use /home/healthycheekums/Physics480/project1/Report/out3.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out3.
-pdf used on input line 170.
+pdf used on input line 239.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 170--171
+Overfull \hbox (9.0pt too wide) in paragraph at lines 239--240
  [][] 
  []
 
-[2 </home/healthycheekums/Physics480/project1/Report/out1.pdf> </home/healthych
-eekums/Physics480/project1/Report/out2.pdf
+[2]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 246.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.286 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.286 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.286 
+       </home/healthycheekums/Physics480/project1/Report/out1.pdf> </home/healt
+hycheekums/Physics480/project1/Report/out2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file /home/healthycheekums/Physics480/projec
 t1/Report/out2.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
+> </home/healthycheekums/Physics480/project1/Report/out3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file /home/healthycheekums/Physics480/projec
+t1/Report/out3.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
 >]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 196.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
 No file Report1.bbl.
-
-Underfull \hbox (badness 1033) in paragraph at lines 229--230
- []\OT1/cmr/m/n/9 G. A. Miller, A. K. Op-per, and E. J. Stephen-son,
- []
-
-[3 </home/healthycheekums/Physics480/project1/Report/out3.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./Report1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
-Package rerunfilecheck Info: File `Report1.out' has not changed.
-(rerunfilecheck)             Checksum: FC8E0BA84D818CB5203CA851F9B60B9E;1005.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 
-LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Warning: File `Report1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report1.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  DDDEBF63EFBF299C22555938C4DEE4DD;1123.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
 
  ) 
 Here is how much of TeX's memory you used:
- 8042 strings out of 495020
- 113231 string characters out of 6181324
- 222271 words of memory out of 5000000
- 11122 multiletter control sequences out of 15000+600000
- 14340 words of font info for 53 fonts, out of 8000000 for 9000
+ 8647 strings out of 495020
+ 121920 string characters out of 6181324
+ 229541 words of memory out of 5000000
+ 11702 multiletter control sequences out of 15000+600000
+ 14940 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,9n,28p,688b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -528,16 +643,18 @@ t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Report1.pdf (3 pages, 223823 bytes).
+/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Report1.pdf (4 pages, 243272 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

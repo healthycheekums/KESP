@@ -8,9 +8,10 @@
 \BOOKMARK [2][-]{section*.8}{LU-decomposition}{section*.4}% 8
 \BOOKMARK [1][-]{section*.9}{Algorithms}{section*.2}% 9
 \BOOKMARK [1][-]{section*.10}{Methods}{section*.2}% 10
-\BOOKMARK [1][-]{section*.11}{Results and discussions}{section*.2}% 11
-\BOOKMARK [2][-]{section*.12}{Relative error}{section*.11}% 12
-\BOOKMARK [1][-]{section*.13}{Conclusions}{section*.2}% 13
-\BOOKMARK [2][-]{section*.14}{Results}{section*.13}% 14
-\BOOKMARK [2][-]{section*.15}{Future Prospects}{section*.13}% 15
-\BOOKMARK [1][-]{section*.16}{References}{section*.2}% 16
+\BOOKMARK [2][-]{section*.11}{Implementing a Specialized Algorithm}{section*.10}% 11
+\BOOKMARK [2][-]{section*.12}{Implementing an LU decomposition Algorithm}{section*.10}% 12
+\BOOKMARK [1][-]{section*.13}{Results and discussions}{section*.2}% 13
+\BOOKMARK [2][-]{section*.14}{Relative error}{section*.13}% 14
+\BOOKMARK [1][-]{section*.15}{Conclusions}{section*.2}% 15
+\BOOKMARK [2][-]{section*.16}{Results}{section*.15}% 16
+\BOOKMARK [2][-]{section*.17}{Future Prospects}{section*.15}% 17
