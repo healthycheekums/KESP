@@ -108,6 +108,24 @@ $\mathbf{A}$, the matrix can be decomposed into the product of  $\mathbf{U}$, up
 	\begin{equation} \mathbf{Ux=x} \end{equation}
 \section{Algorithms}	
 
+The matrix that represents the set of linear equations referred to in equation (2) appears as:
+\begin{center}
+		$\begin{bmatrix}
+			2 & -1 & 0 & 0 \\
+			-1 & 2 & -1 & 0 & \\
+			0 & -1 & 2 & -1   \\
+			0 & 0 & -1 & 2 
+		\end{bmatrix}$
+		 
+		\end{center}
+This form can be generalized to any size nxn matrix, where the diagonal elements $d_{i}$ each equal 2 and the off diagonal elements $e_{i}$ each equal -1.
+
+Equations (6) and (7), representative of forward and backwards substitution, can be generalized for this specific matrix, yielding:
+
+%	\begin{equation}
+%	 \tilde{d}_{i}=\frac{{i+1}{i}}
+%	\end{equation}
+
 \section{Methods}
 	\subsection{Relative error}
 
