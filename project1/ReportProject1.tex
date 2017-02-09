@@ -213,7 +213,7 @@ Further investigation shows that the overabundance of data points does give us t
 	We found that specialized time was vastly more efficient over the LU time, as expected. We were unable to compute a LU matrix at $N=10^{4}$, initializing the program with this input would immediately sieze the program up. For the specialized solver, $N=10^{7}$ was the most reasonable limit, guessing at the size of the output file for $N=10^{7}$, ~400MB, we can assume that $N=10^{8}$ would not only take several hundred seconds to compute, but would result in a file size well over a GB, if not several. 	
 
 \section{Conclusions}
-
+We found that yes, LU is bad
 \begin{thebibliography}{99}
 \bibitem{miller2006} G.~A.~Miller, A.~K.~Opper, and E.~J.~Stephenson, Annu.~Rev.~Nucl.~Sci.~{\bf 56}, 253 (2006).
 \end{thebibliography}
