@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.1.29)  8 FEB 2017 19:52
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.1.29)  8 FEB 2017 22:03
+>>>>>>> refs/remotes/healthycheekums/master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,7 +353,18 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 7.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 7.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 7.
 
+<<<<<<< HEAD
 No file ReportProject1.aux.
+=======
+(./ReportProject1.aux
+
+LaTeX Warning: Label `uvx' multiply defined.
+
+
+LaTeX Warning: Label `uvx' multiply defined.
+
+)
+>>>>>>> refs/remotes/healthycheekums/master
 \openout1 = `ReportProject1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -366,7 +381,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
+<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+=======
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+>>>>>>> refs/remotes/healthycheekums/master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen119
@@ -408,6 +427,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
+<<<<<<< HEAD
+=======
+
+(./ReportProject1.out) (./ReportProject1.out)
+>>>>>>> refs/remotes/healthycheekums/master
 \@outlinefile=\write4
 \openout4 = `ReportProject1.out'.
 
@@ -429,44 +453,77 @@ Underfull \hbox (badness 2302) in paragraph at lines 26--28
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<<<<<<< HEAD
 </home/healthycheekums/Physics480/project1/Report/out1.pdf, id=41, 462.52798pt 
+=======
+</home/healthycheekums/Physics480/project1/Report/out1.pdf, id=97, 462.52798pt 
+>>>>>>> refs/remotes/healthycheekums/master
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out1.pdf Graphic file (t
 ype pdf)
  <use /home/healthycheekums/Physics480/project1/Report/out1.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out1.
+<<<<<<< HEAD
 pdf used on input line 150.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
 
 Overfull \hbox (9.0pt too wide) in paragraph at lines 150--152
+=======
+pdf used on input line 152.
+(pdftex.def)             Requested size: 255.0pt x 191.25389pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 152--154
+>>>>>>> refs/remotes/healthycheekums/master
  [][] 
  []
 
 
+<<<<<<< HEAD
 </home/healthycheekums/Physics480/project1/Report/out2.pdf, id=42, 462.52798pt 
+=======
+</home/healthycheekums/Physics480/project1/Report/out2.pdf, id=98, 462.52798pt 
+>>>>>>> refs/remotes/healthycheekums/master
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out2.pdf Graphic file (t
 ype pdf)
  <use /home/healthycheekums/Physics480/project1/Report/out2.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out2.
+<<<<<<< HEAD
 pdf used on input line 158.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
 
 Overfull \hbox (9.0pt too wide) in paragraph at lines 158--159
+=======
+pdf used on input line 160.
+(pdftex.def)             Requested size: 255.0pt x 191.25389pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 160--161
+>>>>>>> refs/remotes/healthycheekums/master
  [][] 
  []
 
 
+<<<<<<< HEAD
 </home/healthycheekums/Physics480/project1/Report/out3.pdf, id=43, 462.52798pt 
+=======
+</home/healthycheekums/Physics480/project1/Report/out3.pdf, id=99, 462.52798pt 
+>>>>>>> refs/remotes/healthycheekums/master
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out3.pdf Graphic file (t
 ype pdf)
  <use /home/healthycheekums/Physics480/project1/Report/out3.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out3.
+<<<<<<< HEAD
 pdf used on input line 167.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
 
 Overfull \hbox (9.0pt too wide) in paragraph at lines 167--168
+=======
+pdf used on input line 169.
+(pdftex.def)             Requested size: 255.0pt x 191.25389pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 169--170
+>>>>>>> refs/remotes/healthycheekums/master
  [][] 
  []
 
@@ -479,6 +536,7 @@ t1/Report/out2.pdf): PDF inclusion: multiple pdfs with page group included in a
 >]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+<<<<<<< HEAD
  on input line 190.
 
 
@@ -521,6 +579,37 @@ Here is how much of TeX's memory you used:
  14340 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,9n,28p,628b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+ on input line 195.
+
+No file ReportProject1.bbl.
+
+Underfull \hbox (badness 1033) in paragraph at lines 225--226
+ []\OT1/cmr/m/n/9 G. A. Miller, A. K. Op-per, and E. J. Stephen-son,
+ []
+
+[3 </home/healthycheekums/Physics480/project1/Report/out3.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
+
+(./ReportProject1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
+Package rerunfilecheck Info: File `ReportProject1.out' has not changed.
+(rerunfilecheck)             Checksum: FC8E0BA84D818CB5203CA851F9B60B9E;1005.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8042 strings out of 495020
+ 113329 string characters out of 6181324
+ 222271 words of memory out of 5000000
+ 11122 multiletter control sequences out of 15000+600000
+ 14340 words of font info for 53 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 34i,9n,28p,692b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> refs/remotes/healthycheekums/master
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -536,10 +625,19 @@ amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+<<<<<<< HEAD
 Output written on ReportProject1.pdf (3 pages, 221644 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  127 compressed objects within 2 object streams
  33 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on ReportProject1.pdf (3 pages, 223792 bytes).
+PDF statistics:
+ 283 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> refs/remotes/healthycheekums/master
 
