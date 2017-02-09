@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.1.29)  8 FEB 2017 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.1.29)  8 FEB 2017 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,7 +391,20 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 17.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 17.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 17.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 17.
-(./Report1.aux)
+(./Report1.aux
+
+LaTeX Warning: Label `backward' multiply defined.
+
+
+LaTeX Warning: Label `euclid' multiply defined.
+
+
+LaTeX Warning: Label `uvx' multiply defined.
+
+
+LaTeX Warning: Label `uvx' multiply defined.
+
+)
 \openout1 = `Report1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -525,7 +538,7 @@ l.198 \end{algorithm}
                      
 ? 
 
-</home/healthycheekums/Physics480/project1/Report/out1.pdf, id=37, 462.52798pt 
+</home/healthycheekums/Physics480/project1/Report/out1.pdf, id=98, 462.52798pt 
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out1.pdf Graphic file (t
 ype pdf)
@@ -539,7 +552,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 222--224
  []
 
 
-</home/healthycheekums/Physics480/project1/Report/out2.pdf, id=38, 462.52798pt 
+</home/healthycheekums/Physics480/project1/Report/out2.pdf, id=99, 462.52798pt 
 x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out2.pdf Graphic file (t
 ype pdf)
@@ -553,11 +566,12 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 230--231
  []
 
 
-</home/healthycheekums/Physics480/project1/Report/out3.pdf, id=39, 462.52798pt 
-x 346.89601pt>
+</home/healthycheekums/Physics480/project1/Report/out3.pdf, id=100, 462.52798pt
+ x 346.89601pt>
 File: /home/healthycheekums/Physics480/project1/Report/out3.pdf Graphic file (t
 ype pdf)
- <use /home/healthycheekums/Physics480/project1/Report/out3.pdf>
+
+<use /home/healthycheekums/Physics480/project1/Report/out3.pdf>
 Package pdftex.def Info: /home/healthycheekums/Physics480/project1/Report/out3.
 pdf used on input line 239.
 (pdftex.def)             Requested size: 255.0pt x 191.25389pt.
@@ -612,25 +626,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./Report1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
+Package rerunfilecheck Info: File `Report1.out' has not changed.
+(rerunfilecheck)             Checksum: DDDEBF63EFBF299C22555938C4DEE4DD;1123.
 
 
-Package rerunfilecheck Warning: File `Report1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Report1.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  DDDEBF63EFBF299C22555938C4DEE4DD;1123.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8647 strings out of 495020
- 121920 string characters out of 6181324
- 229541 words of memory out of 5000000
- 11702 multiletter control sequences out of 15000+600000
+ 8665 strings out of 495020
+ 122134 string characters out of 6181324
+ 229890 words of memory out of 5000000
+ 11720 multiletter control sequences out of 15000+600000
  14940 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,9n,28p,688b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -651,10 +658,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Report1.pdf (4 pages, 243272 bytes).
+Output written on Report1.pdf (4 pages, 244185 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 303 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
