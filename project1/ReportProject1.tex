@@ -83,21 +83,21 @@ where $d_{i}$ are the diagonal matrix elements and $e_{i}$ are the off diagonal 
 		\end{bmatrix}$
 		\end{center}
 
-The off-diagonal elements $e_{i}$ are unchanged, but the other elements are given by:
+The off-diagonal elements $e_{i}$ are unchanged. The other elements are given by:
 
 	\begin{equation}
 	\tilde{f}_{i}=f_{i}-\frac{\tilde{f}_{i-1}e_{i-1}}{\tilde{d}_{i-1}} ; \tilde{d}_{i}=d_{i}-e^{2}_{i-1}/\tilde{d}_{i-1}
 	\label{forward}
 	\end{equation}
 	
-After back substitution, the elements of solution vector u can are given by:
+After back substitution, the elements of solution vector u are given by:
 
 	\begin{equation}
 	u_{i} = (\tilde{f}_{i}-e_{i}u_{i+1})/\tilde{d}_{i}
 	\label{backward}
 	\end{equation}
 
-We were able to create another program that performed matrix mathematics to solve for the set of linear equations.  Taking a tridiagonal matrix, we can solve it using LU decomposition.
+We were able to use the knowledge of these substitutions to create a special program to solve for our specific set of linear equations.  However, a tridiagonal matrix can be solved using LU decomposition as well.
 	
 	\subsection{LU-decomposition}
 	
@@ -109,7 +109,7 @@ $\mathbf{A}$, the matrix can be decomposed into the product of  $\mathbf{U}$, up
 	\begin{equation} \mathbf{Ux=x} \end{equation}
 \section{Algorithms}	
 
-The matrix that represents the set of linear equations referred to in equation (2) appears as:
+The matrix that represents the set of linear equations referred to in equation (2) appears here as a 4x4 matrix:
 \begin{center}
 		$\begin{bmatrix}
 			2 & -1 & 0 & 0 \\
@@ -123,21 +123,20 @@ This form can be generalized to any size nxn matrix, where the diagonal elements
 
 Equation (6) can be generalized for this specific matrix, yielding: 
 
-%	\begin{equation}
-%	 \tilde{d}_{i}=\frac{i+1}{i}
-%	 \end{equation}
-
 	\begin{equation}
 	\tilde{d}_{i}=\frac{i+1}{i};  
 	\tilde{f}_{i}=f_{i}+{\tilde{d}_{i-1}}\tilde{f}_{i-1}
 	\end{equation}
 
-%	\begin{equation}
-%	\tilde{f}_{i}=f_{i}+{\tilde{d}_{i-1}\tilde{f}_{i-1}
-%	\label{forward}
-%	\end{equation}
+Equation (7) can be reduced to:
 
-Equation (7) can be 
+	\begin{equation}
+	u_{i} = (\tilde{f}_{i}+u_{i+1})/\tilde{d}_{i}
+	\label{backward}
+	\end{equation}
+
+By computing $d_{i}$ once per iteration in a loop saves one operation in the forward substitution. Replacing the off diagonal elements with -1 when possible, and calculating the diagonal elements using the pattern seen in equation (12) also reduces the number of FLOPs. In this way, the specialized application of the forward and backward substitution algorithms are reduced from approximately 9n operations down to 4n.
+
 
 \section{Methods}
 	\subsection{Relative error}
