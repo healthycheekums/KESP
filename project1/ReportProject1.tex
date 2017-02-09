@@ -201,21 +201,26 @@ Further investigation shows that the overabundance of data points does give us t
 			\hline \hline
 			Column Size & Specialized Time (s) & LU Time (s)\\
 			\hline		
-			10\textsuperscript{1} & $1.7 \cdot 10^{-5}$      & 0.00127\\
-			10\textsuperscript{2} & $2.4 \cdot 10^{-5}$      &  0.09897\\
-			10\textsuperscript{3} & $2.12 \cdot 10^{-4}$    & 31.4228\\
-			10\textsuperscript{4} & $1.24 \cdot 10^{-3}$  &  --\\
-			10\textsuperscript{5} & $1.28 \cdot 10^{-2}$  & --\\
-			10\textsuperscript{6} & $1.26 \cdot 10^{-1}$  & --\\
-			10\textsuperscript{7} & 1.26                             & --\\
+			10\textsuperscript{1} & $1.7 \cdot 10^{-5}$      & $1.48 \cdot 10^{-4}$  \\
+			10\textsuperscript{2} & $2.4 \cdot 10^{-5}$      &  $3.79 \cdot 10^{-4}$ \\
+			10\textsuperscript{3} & $2.12 \cdot 10^{-4}$    &  $9.25 \cdot 10^{-3}$  \\
+			10\textsuperscript{4} & $1.24 \cdot 10^{-3}$    &   1.18\\
+			10\textsuperscript{5} & $1.28 \cdot 10^{-2}$    & --\\
+			10\textsuperscript{6} & $1.26 \cdot 10^{-1}$    & --\\
+			10\textsuperscript{7} & 1.26                               & --\\
 			\hline
 			\label{timingtable}
 		\end{tabular}
 	\end{center}
-	We found that specialized time was vastly more efficient over the LU time, as expected. We were unable to compute a LU matrix at $N=10^{5}$, initializing the program with this input would immediately sieze the program up. For the specialized solver, $N=10^{7}$ was the most reasonable limit, guessing at the size of the output file for $N=10^{7}$, ~400MB, we can assume that $N=10^{8}$ would not only take several hundred seconds to compute, but would result in a file size well over a GB, if not several GB. 	
+	We found that specialized time was around an order of magnitude faster than LU time, as expected, When we reached powers of $10^{4}$, the difference jumped several orders of magnitude. We were unable to compute a LU matrix at $N=10^{5}$, initializing the program with this input would immediately sieze the program up. For the specialized solver, $N=10^{7}$ was the most reasonable limit, guessing at the size of the output file for $N=10^{7}$, ~400MB, we can assume that $N=10^{8}$ would not only take 10 or more seconds to compute but would result in a file size well over a GB, if not several GB. Orders above this would only increase  file size and computation time.
 
 \section{Conclusions}
-We found that yes, LU is bad
+	\subsection{Results}
+	We investigated a few ways of solving a tridiagonal matrix problem. As expected, specialization outperforms generalized "brute force" methods. Specialization is faster, and in this case, can be taken out into greater orders of magnitude. Although there is improvement in this realm, we found that the propgation of numerical errors becomes unmanagable after a certain point. Our sweet spot was around the order of $10^{2}$.
+
+	\subsection{Future Prospects}
+	There may be a method to optimize the LU decomposition program, to allow for us to solve problems greater than $10^{4}$, it might be useful to look into this. 
+
 \begin{thebibliography}{99}
 \bibitem{miller2006} G.~A.~Miller, A.~K.~Opper, and E.~J.~Stephenson, Annu.~Rev.~Nucl.~Sci.~{\bf 56}, 253 (2006).
 \end{thebibliography}
