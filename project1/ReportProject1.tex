@@ -137,6 +137,22 @@ Equation (7) can be reduced to:
 
 By computing $d_{i}$ once per iteration in a loop saves one operation in the forward substitution. Replacing the off diagonal elements with -1 when possible, and calculating the diagonal elements using the pattern seen in equation (12) also reduces the number of FLOPs. In this way, the specialized application of the forward and backward substitution algorithms are reduced from approximately 9n operations down to 4n.
 
+In LU decomposition, the lower matrix takes the form:
+$\begin{bmatrix}
+			1 & 0 & 0 & 0 \\
+			$l_{21}$ & 1 & 0 & 0 & \\
+			$l_{31}$ &$l_{32}$& 1 & 0   \\
+			$l_{41}$&$l_{42}$&$l_{43}$& 1 
+\end{bmatrix}$
+
+The upper matrix takes the form:
+
+$\begin{bmatrix}
+			$u_{11}$&$u_{12}$&$u_{13}$&$u_{14}$\\
+			0 & $u_{22}$ & $u_{23}$ & $u_{24}$ & \\
+			0 & 0 & $u_{33}$ & $u_{34}$   \\
+			0 & 0 & 0 & $u_{44}$
+\end{bmatrix}$
 
 \section{Methods}
 	\subsection{Relative error}
